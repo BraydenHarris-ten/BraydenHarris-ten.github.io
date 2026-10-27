@@ -1,194 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Brayden Harris">
-    <meta name="description" content="Brayden Harris resume">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brayden Harris - Resume</title>
-
-    <link rel="shortcut icon" href="img/website.ico">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="css/resume.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            text-align: center;
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .social-icons img {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px;
+        }
+    </style>
 </head>
+<body>
 
-<body id="page-top">
+    <header>
+        <!-- Task 3: img tag (Profile Picture) -->
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile">
+        
+        <!-- Task 2: span tag with Student's Name -->
+        <h2><span id="student-name">Brayden Harris</span></h2>
+        
+        <!-- Task 4: H1 tag -->
+        <h1>Computer Science Student</h1>
+    </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Brayden Harris</span>
-            <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                     src="img/profilepicture.png"
-                     alt="Profile Picture">
-            </span>
-        </a>
+    <section>
+        <h2>About Me</h2>
+        <p>Motivated and dedicated student at UCR pursuing a degree in Computer Science. Passionate about web development, coding, and building innovative technical solutions.</p>
+    </section>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-                </li>
-            </ul>
+    <section>
+        <h2>Contact & Socials</h2>
+        <div class="social-icons">
+            <!-- Task 5: LinkedIn Social Icon -->
+            <a href="https://linkedin.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+            
+            <!-- Task 6: GitHub Social Icon -->
+            <a href="https://github.com/braydenharris-ten" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </a>
+            
+            <!-- Task 7: Twitter Social Icon -->
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            </a>
+            
+            <!-- Task 8: Email Social Icon -->
+            <a href="mailto:bharr056@ucr.edu">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+            </a>
         </div>
-    </nav>
-
-    <div class="container-fluid p-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-            <div class="w-100">
-                <h1 class="mb-0">Brayden <span class="text-primary">Harris</span></h1>
-
-                <div class="subheading mb-5">
-                    University of California, Riverside ·
-                    <a href="mailto:bharr056@ucr.edu">bharr056@ucr.edu</a>
-                </div>
-
-                <p class="lead mb-5">
-                    I am a Business Administration student at the University of California,
-                    Riverside. I am interested in business, finance, basketball, and developing
-                    skills that will help me prepare for my future.
-                </p>
-
-                <div class="social-icons">
-                    <a id="social-icon-1"
-                       href="https://www.linkedin.com/"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-
-                    <a id="social-icon-2"
-                       href="https://github.com/BraydenHarris-ten"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-
-                    <a id="social-icon-3"
-                       href="https://twitter.com/"
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-
-                    <a id="social-icon-4"
-                       href="mailto:bharr056@ucr.edu"
-                       aria-label="Email">
-                        <i class="fa fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-            <div class="w-100">
-                <h2 class="mb-5">Experience</h2>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">Personal Development</h3>
-                        <div class="subheading mb-3">Business Skills</div>
-                        <p>
-                            Developing communication, teamwork, organization, and
-                            problem-solving skills for future opportunities.
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Present</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="education">
-            <div class="w-100">
-                <h2 class="mb-5">Education</h2>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h3 class="mb-0">University of California, Riverside</h3>
-                        <div class="subheading mb-3">Business Administration</div>
-                        <p>Undergraduate student</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="skills">
-            <div class="w-100">
-                <h2 class="mb-5">Skills</h2>
-                <ul>
-                    <li>Communication</li>
-                    <li>Teamwork</li>
-                    <li>Organization</li>
-                    <li>Problem-solving</li>
-                    <li>Business and finance</li>
-                </ul>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="interests">
-            <div class="w-100">
-                <h2 class="mb-5">Interests</h2>
-                <p>
-                    Basketball, business, finance, and personal development.
-                </p>
-            </div>
-        </section>
-
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="awards">
-            <div class="w-100">
-                <h2 class="mb-5">Awards</h2>
-                <p>Continuing to develop academic and professional skills.</p>
-            </div>
-        </section>
-
-    </div>
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="js/resume.min.js"></script>
+    </section>
 
 </body>
 </html>
